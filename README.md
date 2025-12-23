@@ -29,8 +29,7 @@ Users should be able to:
 ### 🔗 Links
 
 - **Solution URL:** https://www.frontendmentor.io/solutions/your-solution-link
-- **Live Site URL:** https://your-live-site-link
-
+- **Live Site URL:** [Live Demo](https://front-end-training-nevikai.github.io/Results-summary-component)
 ---
 
 ## 🛠 My Process
@@ -84,8 +83,8 @@ In future updates, I plan to:
 ## 👤 Author
 
 - **Name:** Nevikai
-- **Frontend Mentor:** https://www.frontendmentor.io/profile/yourusername
-- **GitHub:** https://github.com/yourusername
+- **Frontend Mentor:** [Click On]https://www.frontendmentor.io/profile/nevikai)
+- **GitHub:**[Click On](https://github.com/nevikai)
 
 ---
 

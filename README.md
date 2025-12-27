@@ -28,7 +28,7 @@ Users should be able to:
 
 ### 🔗 Links
 
-- **Solution URL:** [Solution Recipe Page Challenge](https://www.frontendmentor.io/solutions/solution-recipe-page-challenge-XTj7zTPbn4)
+- **Solution URL:** [Solution Results Summary Component](https://www.frontendmentor.io/solutions/results-summary-component-solution-9XWmz835GH)
 - **Live Site URL:** [Live Demo](https://front-end-training-nevikai.github.io/Results-summary-component)
 ---
 

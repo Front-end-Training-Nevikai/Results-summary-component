@@ -19,15 +19,15 @@
     <main>
       <!-- section right -->
 
-      <section class="right" aria-label="Result summary">
-        <h2 class="result">Your Result</h2>
-        <div class="circle">
-          <p class="score">76</p>
-          <p class="of">of 100</p>
+      <section class="result">
+        <h1 class="result__title">Your Result</h1>
+        <div class="result__score-container">
+          <p class="result__score">76</p>
+          <p class="result__of">of 100</p>
         </div>
-        <div class="explanation">
-          <h2>Great</h2>
-          <p>
+        <div class="result__explanation">
+          <h2 class="result__performance">Great</h2>
+          <p class="result__description">
             You scored higher than 65% of the people who have taken these tests.
           </p>
         </div>
@@ -35,56 +35,57 @@
 
       <!-- section left -->
 
-      <section class="left">
-        <h2>Summary</h2>
+      <section class="summary">
+        <h2 class="summary__title">Summary</h2>
+<ul class="summary__report">
+    <li class="summary__list summary__list--reaction">
+          <div class="summary__header summary__header--reaction">
 
-        <div class="sec reaction">
-          <div class="left-sec box1">
-            <img src="assets/images/icon-reaction.svg" alt="reaction icon" />
-            <p>Reaction</p>
+            <img src="assets/images/icon-reaction.svg" class="summary__icon" alt="reaction icon" with="20" height="20" />
+            <p class="summary__category">Reaction</p>
           </div>
-          <div class="right-sec">
-            <p><span>80</span> / 100</p>
-          </div>
-        </div>
-
-
-
-        <div class="sec memory">
-          <div class="left-sec box2">
-            <img src="assets/images/icon-memory.svg" alt="Memory icon" />
-            <p>Memory</p>
-          </div>
-          <div class="right-sec">
-            <p><span> 92</span> / 100</p>
+          <div class="summary__result">
+            <p class="summary__score"><span class="summary__span">80</span> / 100</p>
           </div>
         </div>
+</li>
 
 
-
-        <div class="sec verbal">
-          <div class="left-sec box3">
-            <img src="assets/images/icon-verbal.svg" alt="Verbal icon" />
-            <p>Verbal</p>
+        <li class="summary__list summary__list--memory">
+          <div class="summary__header summary__header--memory">
+            <img src="assets/images/icon-memory.svg" alt="Memory icon" with="20" height="20" />
+            <p class="summary__category">Memory</p>
           </div>
-          <div class="right-sec">
-            <p> <span>61</span> / 100</p>
+          <div class="summary__result">
+            <p class="summary__score"><span class="summary__span"> 92</span> / 100</p>
           </div>
-        </div>
+        </li>
 
 
-        <div class="sec visual">
-          <div class="left-sec box4">
-            <img src="assets/images/icon-visual.svg" alt="visual icon" />
-            <p>Visual</p>
+
+        <li class="summary__list summary__list--verbal">
+          <div class="summary__header summary__header--verbal">
+            <img src="assets/images/icon-verbal.svg" alt="Verbal icon" with="20" height="20" />
+            <p class="summary__category">Verbal</p>
           </div>
-          <div class="right-sec">
-            <p><span>73</span> / 100</p>
+          <div class="summary__result">
+            <p class="summary__score"> <span class="summary__span">61</span> / 100</p>
           </div>
-        </div>
+        </li>
 
 
-        <button class="btn">Continue</button>
+        <li class="summary__list summary__list--visual">
+          <div class="summary__header summary__header--visual">
+            <img src="assets/images/icon-visual.svg" alt="visual icon" with="20" height="20" />
+            <p class="summary__category">Visual</p>
+          </div>
+          <div class="summary__result">
+            <p class="summary__score"><span class="summary__span">73</span> / 100</p>
+          </div>
+        </li>
+</ul>
+
+        <button type="button" class="summary__button">Continue</button>
       </section>
     </main>
 
